@@ -17,7 +17,7 @@ const About = () => {
     });
     clipAnimtion.to(".mask-clip-path", {
       width: "100vw",
-      height: "100hw",
+      height: "100vh",
       borderRadius: 0,
     });
   });
@@ -33,7 +33,7 @@ const About = () => {
         />
         <div className='about-subtext'>
           <p>The Game of Games begins-your life, now an epic MMORPG</p>
-          <p>
+          <p className="text-gray-500">
             Zentry unites every player from countless games and platforms, both
             digital and physical, into a unified Play Economy
           </p>

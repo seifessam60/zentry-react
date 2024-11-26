@@ -127,7 +127,7 @@ const Hero = () => {
             <h1 className='special-font hero-heading text-blue-100'>
               Redefi<b>n</b>e
             </h1>
-            <p className='mb-5 max-w-64 font-robert-regular text-blue-100'>
+            <p className='mb-5 max-w-64 font-robert-regular text-blue-100 '>
               Enter the Metagame <br />
               Unleash the Play Economy
             </p>
@@ -135,7 +135,7 @@ const Hero = () => {
               id='watch-trailer'
               title='Watch Trailer'
               leftIcon={<TiLocationArrow />}
-              containerClass='!bg-yellow-300 flex-center gap-1'
+              containerClass='!bg-yellow-300 flex-center gap-1 '
             />
           </div>
         </div>
